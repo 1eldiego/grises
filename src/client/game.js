@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import GameScene from './scenes/GameScene';
+import ws from './networking';
 
 const config = {
   type: Phaser.AUTO,
